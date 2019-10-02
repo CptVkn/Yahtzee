@@ -1,0 +1,127 @@
+body {
+  background-color: darkgrey;
+  color: azure;
+}
+
+.container {
+  border-color: black;
+  border-style: dotted;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  width: 75%;
+  float: left;
+  margin: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  overflow: hidden;
+
+  text-align: Center;
+}
+
+#main_header {
+  border-color: black;
+  border-style: dotted;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  width: 95%;
+  float: center;
+  margin: auto;
+  padding-top: 0.01%;
+  padding-bottom: 0.01%;
+  overflow: hidden;
+
+  text-align: Center;
+  font-size: 20px;
+  letter-spacing: 0.5rem;
+}
+
+#idScorecard {
+  margin-right: auto;
+  margin-left: auto;
+
+  float: right;
+  width: 20%;
+  padding: 0;
+}
+
+.dice {
+  background-color: white;
+  color: #555;
+
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+
+  margin-left: 4%;
+  margin-right: 4%;
+
+  float: left;
+  width: 12%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dice_select_indicator {
+  background-color: white;
+
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+
+  float: left;
+  width: 5%;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+}
+
+.scorecard {
+  background-color: white;
+  color: #555;
+
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+
+  margin: auto;
+
+  float: center;
+  width: 90%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn {
+  background-color: grey;
+  color: white;
+
+  border: 0;
+  border-radius: 15px;
+
+  margin: auto;
+
+  display: block;
+  width: 90%;
+  padding: 2% 2%;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+#idBonusScoreUpper {
+  display: none;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <header id="main_header">
+      <div>
+        <h1>Yahtzee!</h1>
+      </div>
+    </header>
+
+    <br />
+    <div id="idDice" class="container">
+      <div id="1" class="dice">0</div>
+      <div id="2" class="dice">0</div>
+      <div id="3" class="dice">0</div>
+      <div id="4" class="dice">0</div>
+      <div id="5" class="dice">0</div>
+      <div id="1" class="dice_select_indicator"></div>
+      <div id="2" class="dice_select_indicator"></div>
+      <div id="3" class="dice_select_indicator"></div>
+      <div id="4" class="dice_select_indicator"></div>
+      <div id="5" class="dice_select_indicator"></div>
+    </div>
+
+    <div id="idScorecard" class="container">
+      <div class="scorecard">Ones</div>
+      <div class="scorecard">Twos</div>
+      <div class="scorecard">Threes</div>
+      <div class="scorecard">Fours</div>
+      <div class="scorecard">Fives</div>
+      <div class="scorecard">Sixes</div>
+      <div class="scorecard">3 of a Kind</div>
+      <div class="scorecard">4 of a Kind</div>
+      <div class="scorecard">Full House</div>
+      <div class="scorecard">Small Straight</div>
+      <div class="scorecard">Large Straight</div>
+      <div class="scorecard">Chance</div>
+      <div class="scorecard">Yahtzee</div>
+    </div>
+
+    <div class="container">
+      <input class="btn" type="submit" value="Roll" />
+    </div>
+
+    <div class="container">
+      <p>Upper Score:</p>
+      <p id="idShowScoreUpper"></p>
+      <p id="idBonusScoreUpper">Bonus 35!</p>
+      <p>Lower Score:</p>
+      <p id="idShowScoreLower"></p>
+      <p>Total Score:</p>
+      <p id="idShowScore"></p>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
